@@ -3,11 +3,11 @@ Test custom django management commands
 """
 from unittest.mock import patch
 
-from psycopg2 import OperationalError as Psycopg2Error  # type: ignore
+from psycopg2 import OperationalError as Psycopg2Error
 
-from django.core.management import call_command  # type: ignore
-from django.db.utils import OperationalError  # type: ignore
-from django.test import SimpleTestCase  # type: ignore
+from django.core.management import call_command
+from django.db.utils import OperationalError
+from django.test import SimpleTestCase
 
 
 @patch('core.management.commands.wait_for_db.Command.check')
