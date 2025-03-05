@@ -4,3 +4,4 @@ psycopg2-binary>=2.9.3,<2.10
 drf_spectacular>=0.22.1,<0.23
 black==25.1.0
 pre_commit==4.0.1
+Pillow==11.1.0
